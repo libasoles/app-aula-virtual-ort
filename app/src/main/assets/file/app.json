@@ -1,0 +1,31 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Aula virtual ORT",
+      "actions": {
+        "$load": {
+          "type": "$agent.inject",
+          "options": {
+            "id": "$webcontainer",
+            "items": [
+              {
+                "url": "file://script.js"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "body": {
+      "style": {
+        "background": {
+          "type": "html",
+          "url": "https://aulavirtual.instituto.ort.edu.ar",
+          "action": {
+            "trigger": "navigate"
+          }
+        }
+      }
+    }
+  }
+}

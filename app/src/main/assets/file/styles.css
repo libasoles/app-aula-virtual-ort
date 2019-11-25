@@ -1,0 +1,393 @@
+ /************/
+ /* Header   */
+ /************/
+  header {
+   height: 80px;
+ }
+ .header-ba {
+   min-height: 25px;
+ }
+ .header-ba > div {
+   /* Logo original */
+   display: none;
+ }
+ .navbar-light .navbar-brand, .navbar-brand {
+   /* Logo navegable */
+   display: block !important;
+   font-weight: 800;
+   letter-spacing: -1px;
+   color: #103B62;
+   background: #ffffff url("https://i.imgur.com/71ftoZK.png") no-repeat left top;
+   background-size: 35px 33px;
+   padding-left: 38px;
+   padding-top: 0px;
+   margin-left: -10px;
+   line-height: 17.5px;
+   max-height: 40px;
+   min-width: 150px;
+   margin-right: 0px;
+ }
+ .navbar-brand span {
+   display: none;
+ }
+ .navbar-brand:before {
+   content:"Aula virtual";
+   display: block;
+ }
+ .navbar-brand:after {
+   content:"ORT"
+ }
+ .navbar-light .navbar-brand, .navbar-brand:hover {
+   color: #103B62 !important;
+ }
+ .menubar a[data-title="profile,moodle"], .menubar a[data-title="grades,grades"] {
+   display: none;
+ }
+ @media(max-width: 699px) {
+   .notloggedin div[data-region="drawer-toggle"] {
+     display: none;
+   }
+   div[data-region="drawer-toggle"] > button {
+     margin-right: 4px !important;
+     padding: 7px;
+   }
+   .navbar-light .navbar-brand, .navbar-brand {
+     margin-left: 2px;
+   }
+   #theme_switch_link {
+     display: none;
+   }
+   #page-footer > .container-fluid {
+     display: flex;
+     justify-content: space-between;
+   }
+   .header-ba {
+     display: none;
+   }
+   header.navbar-static-top > .container-fluid {
+     margin: 20px 0;
+
+   }
+   .notloggedin header.navbar-static-top > .container-fluid {
+
+     display: flex;
+   }
+ }
+ /**************/
+
+ /* Breadcrumb */
+
+ /**************/
+  .breadcrumb li {
+   display: none;
+ }
+ .breadcrumb li:nth-last-child(1), .breadcrumb li:nth-last-child(2) {
+   display: list-item;
+ }
+ /**********************/
+
+ /* Rigth Sidebar      */
+
+ /**********************/
+  .block_calendar_month, .block_calendar_upcoming, .block_online_users, .block_search_forums, .block_activity_modules, .block_badges {
+   display: none;
+ }
+ }
+
+ /**********************/
+
+ /* Pages              */
+
+ /**********************/
+  #page {
+   margin-top: 84px !important;
+ }
+ .path-local-eabcdhbstudent .block-myoverview > .nav {
+   display: none;
+ }
+ @media(max-width: 699px) {
+   #completionprogressid {
+     display: none;
+   }
+   .section-navigation {
+     display: flex !important;
+     justify-content: space-between;
+   }
+   .page-header-headings h1 {
+     font-size: 19px;
+     margin: 8px 0;
+   }
+   .course-content .single-section .section-navigation .mdl-left {
+     margin-right: 5px;
+   }
+   .course-content .single-section .section-navigation .mdl-right {
+     margin-left: 5px;
+   }
+ }
+ /***************************/
+
+ /* Jumbotron Login  & Home */
+
+ /***************************/
+  @media(max-width: 699px) {
+   .jumbotron {
+     margin-top: 30px;
+   }
+   .jumbotron-overlay h1 {
+     font-size: 22px !important;
+     margin-bottom: 10px;
+   }
+   .jumbotron-overlay .lead {
+     font-size: 14px;
+   }
+
+ /**********************/
+
+ /* Login              */
+
+ /**********************/
+  .notloggedin .usermenu .login {
+   color: #f95f7f;
+ }
+ .pagelayout-login .card .text-center-login div:nth-child(2) div:nth-child(2), .pagelayout-login .card .text-center-login div:nth-child(2) div:nth-child(3) {
+   display: none;
+ }
+ .pagelayout-login .card .text-center-login {
+   display: flex;
+   flex-direction: column;
+ }
+ .pagelayout-login .card .text-center-login > div {
+   width: 100%;
+ }
+ .pagelayout-login .card .text-center-login > div input[type="text"], .pagelayout-login .card .text-center-login > div input[type="password"], .pagelayout-login .card .text-center-login > div button {
+   width: 218px;
+   margin: 0 auto;
+ }
+ @media(min-width: 700px) {
+   .notloggedin footer {
+     bottom: 0;
+     position: fixed !important;
+   }
+ }
+ @media(max-width: 699px) {
+   .notloggedin .usermenu {
+     text-align: right;
+   }
+   .notloggedin .usermenu > span {
+     line-height: 15px;
+     color: #9a9a9a !important;
+   }
+   .login a {
+     font-size: 14px;
+   }
+   .notloggedin footer {
+     display: none;
+   }
+   .notloggedin .box.generalbox {
+     font-size: 15px;
+   }
+ }
+
+
+ /* Homepage */
+
+ /************/
+  .pagelayout-frontpage #page {
+   margin-top: 0 !important;
+ }
+ .pagelayout-frontpage #page-content .ort-main .jumbotron:nth-child(1) {
+   /* Banner Home */
+   height: 170px !important;
+   margin-bottom: 1rem;
+ }
+ .pagelayout-frontpage #page-content .ort-main .jumbotron:nth-child(2) {
+   /* Círculos de colores en Home */
+   display: none;
+ }
+ .pagelayout-frontpage #page-content #region-main {
+   height: 130px;
+   width: 100%;
+ }
+ .pagelayout-frontpage #coursesearch {
+   /* Buscador de materias */
+   text-align: left;
+ }
+ .pagelayout-frontpage #page-content .box {
+   padding: 0 !important;
+ }
+ .pagelayout-frontpage #page-content .generalbox {
+   padding: 0 !important;
+   font-size: 1.2em;
+ }
+ .pagelayout-frontpage #page-content .generalbox a {
+   padding-left: 15px;
+   color: #f95f7f;
+ }
+ .pagelayout-frontpage #page-content .generalbox a img {
+   display: none;
+ }
+ .pagelayout-frontpage #page-content[data-region] {
+   /* Listado de materias */
+   width: 100%;
+ }
+ .pagelayout-frontpage #page-content aside.block_course_list .card-block img {
+   /* Logo en listado de materias */
+   display: none;
+ }
+ @media(max-width: 699px) {
+   .coursesearchbox {
+     display: block;
+   }
+   #shortsearchbox {
+     width: 100%;
+   }
+ }
+ }
+
+ @-moz-document url-prefix("https://aulavirtual.instituto.ort.edu.ar/course") {
+ /***********************/
+
+ /* Pagina de materia   */
+
+ /***********************/
+  .pagelayout-course #page .card-block {
+   padding: 0.5rem 1.25em;
+ }
+ .course-content .single-section {
+   display: flex;
+   flex-direction: column;
+   margin-top: 0;
+ }
+ .pagelayout-course .course-content .single-section ul:nth-child(1) {
+   order: 1;
+   margin-top: 50px;
+   border-top: 1px solid #ddd;
+   display: flex;
+   flex-direction: column;
+ }
+ .pagelayout-course .course-content .single-section ul:nth-child(1) li a {
+   color: #535353;
+ }
+ .pagelayout-course .course-content .single-section ul.topics li {
+   padding-top: 0px;
+ }
+ .pagelayout-course .course-content .single-section .section-navigation a {
+   color: #f95f7f;
+ }
+
+ /************/
+
+ /* Menu     */
+
+ /************/
+  #nav-drawer {
+   padding: 9px;
+   padding-top: 40px!important;
+   display: flex;
+   flex-direction: column;
+ }
+ .pagelayout-course #nav-drawer .list-group:nth-child(1), .pagelayout-incourse #nav-drawer .list-group:nth-child(1) {
+   order: 1;
+   margin-top: 1rem!important;
+ }
+ #nav-drawer .list-group.m-t-1 {
+   order: 0;
+   margin-top: 0 !important;
+ }
+ #nav-drawer .list-group.m-t-1 a {
+   background: #F4F4F4;
+ }
+ #nav-drawer .list-group-item-action {
+   color: #757575;
+ }
+ #nav-drawer .list-group-item-action .media-left {
+   display: none;
+ }
+ #nav-drawer a[data-key="mycourses"], #nav-drawer a[data-key="home"], #nav-drawer a[data-key="calendar"], #nav-drawer a[data-key="privatefiles"], #nav-drawer a[data-key="badgesview"], #nav-drawer a[data-key="competencies"], #nav-drawer a[data-key="grades"], #nav-drawer a[data-key="coursehome"] {
+   display: none;
+ }
+ #nav-drawer a[data-key="147"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="147"]:after {
+   content:"Info general"
+ }
+ #nav-drawer a[data-key="eabcdhbstudent"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="eabcdhbstudent"]:after {
+   content:"Dashboard";
+   color: #695d5d;
+ }
+ #nav-drawer a[data-key="200"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="200"]:after {
+   content:"Arquitectura y Sistemas Operativos"
+ }
+ #nav-drawer a[data-key="197"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="197"]:after {
+   content:"Base de datos 2"
+ }
+ #nav-drawer a[data-key="192"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="192"]:after {
+   content:"Taller nuevas tecnologías 2"
+ }
+ #nav-drawer a[data-key="190"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="190"]:after {
+   content:"Programación 2"
+ }
+ #nav-drawer a[data-key="191"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="191"]:after {
+   content:"Taller Programación 2"
+ }
+ #nav-drawer a[data-key="194"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="194"]:after {
+   content:"Sistemas administrativos"
+ }
+ #nav-drawer a[data-key="164"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="164"]:after {
+   content:"Fundamentos de Programación"
+ }
+ #nav-drawer a[data-key="169"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="169"]:after {
+   content:"Introducción a la Informática"
+ }
+ #nav-drawer a[data-key="172"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="172"]:after {
+   content:"Matemáticas"
+ }
+ #nav-drawer a[data-key="167"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="167"]:after {
+   content:"Organizacion Empresarial"
+ }
+ #nav-drawer a[data-key="174"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="174"]:after {
+   content:"Taller de Creatividad e Innovación"
+ }
+ #nav-drawer a[data-key="165"] > div {
+   display: none;
+ }
+ #nav-drawer a[data-key="165"]:after {
+   content:"Taller de Herramientas de Programación"
+ }
