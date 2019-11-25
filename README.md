@@ -1,12 +1,14 @@
-[![logo](https://raw.githubusercontent.com/gliechtenstein/images/master/jasonette.png)](http://www.jasonette.com)
-
-App nativa para Android creada con _Jasonelle_.
+App nativa para Android creada con [Jasonelle](https://jasonelle.com/).
 
 ## Description:
-Básicamente, es la web del aula virtual del terciario ORT (Argentina), a la que se le agregan estilos CSS (ver detalle más abajo).
+Básicamente, es la web del *aula virtual* del terciario ORT (Argentina), a la que se le agregan estilos CSS (ver detalle más abajo).
 
 Para la versión de escritorio, podés instalar estos estilos:
 https://userstyles.org/styles/175381/aula-virtual-minima
+
+## Descarga del apk
+
+[aula-virtual-ort.apk](https://github.com/libasoles/app-aula-virtual-ort/blob/master/release/aula-virtual-ort.apk)
 
 ### Features
 
@@ -29,8 +31,6 @@ En una página de materia:
 - pasa los tabs de una unidad al footer, y los lista verticalmente
 
 Y un par de detalles mas.
-
-Por supuesto que lo pueden forkear y editar a piacere.
 
 
 
