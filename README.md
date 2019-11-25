@@ -12,9 +12,9 @@ https://userstyles.org/styles/175381/aula-virtual-minima
 
 [aula-virtual-ort.apk](https://github.com/libasoles/app-aula-virtual-ort/blob/master/release/aula-virtual-ort.apk)
 
-Para instalar, basta con descargar el archivo, y abrirlo. Pero para abrirlo, es necesario buscar el archivo en la carpeta de descargas y abrirlo desde ahí, no desde el navegador (porque el navegador no tiene permisos para instalar apks).
+Para instalar, basta con descargar el archivo, y abrirlo. 
 
-Al clickearlo, Android va a dar una advertencia porque la apk no se distribuye a través de la App Store. Salvando eso, no hay nada más. La app no requiere de ningún permiso especial.
+Para abrirlo, es probable que tengas que dar permisos de instalación. Android va a dar una advertencia porque la apk no se distribuye a través de la App Store. Salvando eso, no hay nada más. La app no requiere de ningún permiso especial.
 
 ### Features
 
