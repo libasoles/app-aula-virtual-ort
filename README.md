@@ -3,16 +3,18 @@
 App nativa para Android creada con [Jasonelle](https://jasonelle.com/).
 
 ## Description:
-Básicamente, es la web del *aula virtual* del terciario ORT (Argentina), a la que se le agregan estilos CSS (ver detalle más abajo).
+Básicamente, es la web del *aula virtual* del terciario ORT (Argentina), a la que se le agregan estilos CSS.
 
-Para la versión de escritorio, podés instalar estos estilos:
+También hay una versión de escritorio. Que es una hoja de estilo para Stylish:
 https://userstyles.org/styles/175381/aula-virtual-minima
 
 ## Descarga
 
 [aula-virtual-ort.apk](https://github.com/libasoles/app-aula-virtual-ort/blob/master/release/aula-virtual-ort.apk)
 
-Para instalar, basta con descargar el archivo y abrirlo. Android va a dar una advertencia porque no se distribuye a través de la App Store. Salvando eso, no hay nada más. La app no requiere de ningún permiso especial.
+Para instalar, basta con descargar el archivo, y abrirlo. Pero para abrirlo, es necesario buscar el archivo en la carpeta de descargas y abrirlo desde ahí, no desde el navegador (porque el navegador no tiene permisos para instalar apks).
+
+Al clickearlo, Android va a dar una advertencia porque la apk no se distribuye a través de la App Store. Salvando eso, no hay nada más. La app no requiere de ningún permiso especial.
 
 ### Features
 
