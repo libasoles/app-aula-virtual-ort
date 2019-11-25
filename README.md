@@ -1,3 +1,5 @@
+## Aula virtual ORT - app no oficial
+
 App nativa para Android creada con [Jasonelle](https://jasonelle.com/).
 
 ## Description:
@@ -6,9 +8,11 @@ Básicamente, es la web del *aula virtual* del terciario ORT (Argentina), a la q
 Para la versión de escritorio, podés instalar estos estilos:
 https://userstyles.org/styles/175381/aula-virtual-minima
 
-## Descarga del apk
+## Descarga
 
 [aula-virtual-ort.apk](https://github.com/libasoles/app-aula-virtual-ort/blob/master/release/aula-virtual-ort.apk)
+
+Para instalar, basta con descargar el archivo y abrirlo. Android va a dar una advertencia porque no se distribuye a través de la App Store. Salvando eso, no hay nada más. La app no requiere de ningún permiso especial.
 
 ### Features
 
